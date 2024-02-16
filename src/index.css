@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+  background-color: #595959;
+}
+
+.container {
+  width: 40rem;
+  height: 40rem;
+  display: block;
+  padding: 2.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 10rem;
+  border-radius: 1.5rem;
+  box-shadow: 0.25rem 0rem 3rem 0rem aqua;
+}
+
+.upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avater {
+  width: 12rem;
+  height: 12rem;
+  padding: 2.5rem;
+  background-color: #373636;
+  border-radius: 50%;
+  box-shadow: 0.1rem 0rem 1rem 0rem aqua;
+}
+
+.avater img {
+  width: 7rem;
+  height: 7rem;
+}
+
+.identity h1 {
+  font-size: 2.1rem;
+  text-transform: uppercase;
+  color: rgb(4, 223, 223);
+}
+.identity p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: aliceblue;
+  text-align: center;
+}
+
+.intro {
+  padding: auto;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(230, 241, 251);
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-around; */
+  gap: 1rem;
+}
+.skills h2 {
+  padding: 0 1rem;
+  border-radius: 7px;
+  background-color: #1f1ff6;
+}
+
+.skills h2:nth-child(2) {
+  background-color: #fbc531;
+}
+
+.skills h2:nth-child(3) {
+  background-color: #a1fc8e;
+}
+.skills h2:nth-child(4) {
+  background-color: #fb694c;
+}
+
+.skills h2:nth-child(5) {
+  background-color: #31fbf4;
+}
+
+.skills h2:last-child {
+  background-color: #f53d05;
+}
+/* *************** */
